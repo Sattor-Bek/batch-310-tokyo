@@ -1,0 +1,86 @@
+/*https://colorhunt.co/palette/154210*/
+
+body{
+  font-family: Raleway;
+  background-color: #e6edf7;
+  text-indent: 10;
+  display: grid;
+}
+h2 {
+  font-size: 15px;
+}
+
+#banner {
+  opacity:0.7;
+  text-align: center;
+  color: white;
+  font-family:Ariel;
+  width: 100vw;
+  height: 100vh;
+  display:grid;
+}
+
+#banner img {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%);
+}
+
+#banner_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
+
+#banner h1 {
+  font-family: Source Sans Pro;
+  font-size: 35px;
+}
+#banner p {
+  font-family: Source Sans Pro;
+  font-size: 30px;
+}
+
+.skill_name {
+background-color: #a8bfe0;
+font-size: 25px;
+display: grid;
+}
+
+.skill_name:hover {
+opacity:0.5;
+}
+
+.container{
+  margin:0;
+}
+.col-xs-6.col-sm-4.col-md-1 {
+  text-align: center;
+  position:relative;
+  background-color: #a0c3f7;
+  border-radius: 10px;
+  margin:5px;
+  text-indent: 0;
+}
+
+.col-xs-6.col-sm-4.col-md-1:hover{
+  opacity:0.5;
+}
+
+#other_skill {
+  display:block;
+}
+
+#work_ex {
+}
+
+ul,ol {
+  list-style-type: none;
+  font-size: 20px;
+}
+
